@@ -20,3 +20,11 @@ button{
     width: 100%;
   }
 }
+@keyframes ding dong {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+button {
+  animation-name: ding dong;
+  animation-duration: 4s;
+}
